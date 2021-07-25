@@ -8,7 +8,7 @@ let countWords=1;let countLetters=0;
 for(i=0;i<str.length;i++)
 {
     if(str[i]==' ')
-    countWords++;
+   { countWords++;}
     else
     countLetters++;
 }
